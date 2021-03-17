@@ -63,7 +63,13 @@ From the people that lived, there were more females than males that lived. Of th
 ## Numerical results
 
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+Now that we have the exact percentages, from the people that are alive 56% are females and 44% are males. From the people that are dead 36% are female and 64% are male. This tells me that that the males dead were higher in percentage that females.
 
 ## Inferential results 
 
