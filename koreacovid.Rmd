@@ -73,8 +73,16 @@ Now that we have the exact percentages, from the people that are alive 56% are f
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+In both these test something significant happened. In the Fisher's Exact Test for Count Data it shows that the odds ratio of a male dying is 2.3 times greater than the odds of a female dying.
 
 
 
 ## Conclusions
 
+In conclusion, according to the data males are more likely to die that females.
