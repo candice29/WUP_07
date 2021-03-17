@@ -39,9 +39,13 @@ with(kRdata, table(Sex, result))
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
 `
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
   
-
+There is a bigger percentage of males that died than females. About 57% of females lived and about 40% of males lived.
 
 
 
