@@ -55,19 +55,14 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ```
   
   
-There is a bigger percentage of males that died than females. About 57% of females lived and about 40% of males lived.
-
+From the people that lived, there were more females than males that lived. Of those who lived 57% were females and 40% were males. From the people that died about 62% were males and about 37% were females.
 
 
 
   
 ## Numerical results
 
-```{r}
-table1 <- xtabs(~result + Sex, data=kRdata)
-rowPerc(table1)
-colPerc(table1)
-```
+
 
 
 ## Inferential results 
